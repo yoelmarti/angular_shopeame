@@ -1,0 +1,12 @@
+
+<div class="main">
+    <div class="main__welcome">
+        <h2 class="main__title">{{mainContent.title}}</h2>
+        <div class="main__paragraphs" >
+            <ng-container *ngFor="let content of mainContent.questions">
+                <h3 class="main__question">{{content.question}}</h3>
+                <p class="main__text">{{content.text}}</p>
+            </ng-container>
+        </div>
+    </div>
+</div>

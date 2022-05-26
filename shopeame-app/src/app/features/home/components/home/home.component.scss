@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;
+    font-family: 'Inter', sans-serif;
+    padding: 60px 5px;
+    &__welcome{
+        width: 1200px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px;
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__question{
+        margin:  30px 0;
+    }
+}

@@ -1,0 +1,89 @@
+.nav {
+  width: 100%;
+}
+
+.nav__intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 43px;
+  height: 43px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  background: #2979ff;
+  background: -webkit-gradient(linear, left top, right top, from(#2979ff), to(#4c589e));
+  background: linear-gradient(90deg, #2979ff 0%, #4c589e 100%);
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.nav__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #0C2146;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+  background: #FFC970;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.nav__item {
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.nav__item:hover {
+  background: rgba(235, 242, 255, 0.3);
+}
+/*# sourceMappingURL=navbar.component.css.map */
